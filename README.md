@@ -2,7 +2,7 @@
 #### The objective is to robotically assemble 25 burritos making use of the Random class 
 
 
-#### Pseudocode for this assignment\
+#### Pseudocode for this assignment 
 \
 Initialize Random generator\
 Initialize allIngredients array - make it a jagged array\
@@ -13,13 +13,13 @@ Declare specificIngredientIndex\
 Declare specificIngredient\
 Initialize burritoPrice = 0\
 \
-FOR index1 = 0 to 24\
-   Allocate memory oneBurrito arrayList\
-   Initialize burritoPrice = 3.00\
-   Initialize specificIngredient = ""\
-   Randomly generate a number from 5 to 9\
-   Set numIngredients to the randomly generated number in the previous step\
-   Add the string "Burrito " & (index1 + 1) to the oneBurrito arrayList\
++FOR index1 = 0 to 24\
+   -Allocate memory oneBurrito arrayList\
+   -Initialize burritoPrice = 3.00\
+   -Initialize specificIngredient = ""\
+   -Randomly generate a number from 5 to 9\
+   -Set numIngredients to the randomly generated number in the previous step\
+   -Add the string "Burrito " & (index1 + 1) to the oneBurrito arrayList\
    \
    FOR index2 = 0 to (numIngredients - 1)\
       Randomly generate a number between 0 and numIngredients\
@@ -47,4 +47,4 @@ FOR index3 = 0 to 24\
    FOR index4 = 0 to (size of burritoOrder - 1)\
       Display contents of burritOrder at index4\
    ENDFOR\
-ENDFOR\
+ENDFOR 
