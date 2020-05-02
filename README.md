@@ -15,6 +15,7 @@ Initialize burritoPrice = 0\
 \
 FOR index1 = 0 to 24\
    *Allocate memory oneBurrito arrayList\
+	Allocate memory oneBurrito arrayList\
    *Initialize burritoPrice = 3.00\
    *Initialize specificIngredient = ""\
    *Randomly generate a number from 5 to 9\
