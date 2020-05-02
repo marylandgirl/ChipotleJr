@@ -14,11 +14,11 @@ Declare specificIngredient\
 Initialize burritoPrice = 0\
 \
 FOR index1 = 0 to 24\
-     Allocate memory oneBurrito arrayList\
-     Initialize burritoPrice = 3.00\
-     Initialize specificIngredient = ""\
-     Randomly generate a number from 5 to 9\
-     Set numIngredients to the randomly generated number in the previous step\
+   *Allocate memory oneBurrito arrayList\
+   *Initialize burritoPrice = 3.00\
+   *Initialize specificIngredient = ""\
+   *Randomly generate a number from 5 to 9\
+   *Set numIngredients to the randomly generated number in the previous step\
    -Add the string "Burrito " & (index1 + 1) to the oneBurrito arrayList\
    \
    FOR index2 = 0 to (numIngredients - 1)\
